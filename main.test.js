@@ -5,9 +5,34 @@ Your code goes below.
 */
 
 
+let y = 10
+let x = 3
+let z = 5
+let name = "jason"
+let greeting = "hey"
+
+function multiply(num){
+   x = num * x
+}
+
+function modBy(num){
+    y = num / y % num
+}
+
+function opposite(num){
+    z = 0 - num 
+}
 
 
 
+function yellAt(name){
+      return greeting + "," + name
+}
+
+const makeFullName = yellAtt("Jason")
+console.log(makeFullName)
+
+      
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
